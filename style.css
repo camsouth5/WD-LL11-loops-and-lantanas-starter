@@ -25,3 +25,58 @@ body {
     max-width: 300px;
   }
   
+  #wishlist {
+    background: #fffbe7;
+    border: 2px solid #ffe066;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    box-shadow: 0 2px 8px rgba(255, 224, 102, 0.15);
+  }
+  #wishlist h2 {
+    color: #b8860b;
+    margin-bottom: 1rem;
+  }
+  #wishlist ul {
+    list-style-type: "+ ";
+    padding-left: 1.5rem;
+    margin-top: 1rem;
+  }
+  #wishlist li {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    color: #6d4c00;
+    transition: background 0.2s;
+    border-radius: 4px;
+    padding: 0.2rem 0.5rem;
+  }
+  #wishlist li:hover {
+    background: #fff3cd;
+  }
+  #wishlist-input, #wishlist-submit {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  #wishlist input[type="text"] {
+    width: 60%;
+    max-width: 250px;
+    margin-right: 0.5rem;
+    padding: 0.4rem 0.7rem;
+    border: 1px solid #ffe066;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  #wishlist button {
+    background: #ffe066;
+    color: #6d4c00;
+    border: none;
+    border-radius: 5px;
+    padding: 0.4rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-left: 0;
+  }
+  #wishlist button:hover {
+    background: #ffd43b;
+  }
